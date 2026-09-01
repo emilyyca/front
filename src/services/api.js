@@ -157,9 +157,11 @@ export async function cadastrar(nome, email, senha) {
 //  🧪 Teste o erro: apague uma letra do token antes de mandar e veja o 401.
 //
 export async function listarUsuarios(token) {
-const resposta = await fetch(`${API_URL}/api/usuarios`);
+const resposta = await fetch(`${API_URL}/api/usuarios`, {
+headers: { Authorization: `Bearer ${token}` },
+});
 console.log("resposta:", resposta);
-return []; // provisório, só para a tela não quebrar
+return [];
 }
 
 // ╔═════════════════════════════════════════════════════════════════════╗
