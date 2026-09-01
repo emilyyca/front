@@ -157,8 +157,9 @@ export async function cadastrar(nome, email, senha) {
 //  🧪 Teste o erro: apague uma letra do token antes de mandar e veja o 401.
 //
 export async function listarUsuarios(token) {
-  // ↓↓↓ APAGUE ESTA LINHA E ESCREVA SEU CÓDIGO ↓↓↓
-  throw new Error("🚧 TAREFA 2 ainda não foi implementada (src/services/api.js)");
+const resposta = await fetch(`${API_URL}/api/usuarios`);
+console.log("resposta:", resposta);
+return []; // provisório, só para a tela não quebrar
 }
 
 // ╔═════════════════════════════════════════════════════════════════════╗
