@@ -160,7 +160,8 @@ export async function listarUsuarios(token) {
 const resposta = await fetch(`${API_URL}/api/usuarios`, {
 headers: { Authorization: `Bearer ${token}` },
 });
-console.log("resposta:", resposta);
+const dados = await resposta.json();
+console.log("dados:", dados);
 return [];
 }
 
