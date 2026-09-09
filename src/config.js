@@ -16,8 +16,7 @@
 //    Access to fetch at 'https://...' from origin 'http://localhost:5173'
 //    has been blocked by CORS policy
 //
-export const API_URL =
-  import.meta.env.VITE_API_URL || "https://backend-kappa-fawn-28.vercel.app";
+export const API_URL = "https://backend-kappa-fawn-28.vercel.app";
 
 // Chave usada para guardar o token no localStorage do navegador.
 export const CHAVE_SESSAO = "sessao-3c";
