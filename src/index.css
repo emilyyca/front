@@ -4,16 +4,16 @@
 
 :root {
   --fundo: #5D5380;
-  --fundo-2: #A6CAFF;
+  --fundo-2: #6AC0FB;
   --cartao: #5669A1;
-  --borda: #A6CAFF;
+  --borda: #6AC0FB;
   --texto: #F5F3E8;
   --texto-fraco: #E4E0D2;
   --acento: #FFECA6;
-  --acento-2: #A6CAFF;
+  --acento-2: #6AC0FB;
   --ok: #FFECA6;
-  --atencao: #A6CAFF;
-  --perigo: #A6CAFF;
+  --atencao: #6AC0FB;
+  --perigo: #6AC0FB;
   --raio: 14px;
 }
 
@@ -24,7 +24,7 @@
 body {
   margin: 0;
   font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
-  background: radial-gradient(1100px 600px at 12% -10%, #A6CAFF 0%, transparent 55%),
+  background: radial-gradient(1100px 600px at 12% -10%, #6AC0FB 0%, transparent 55%),
     radial-gradient(900px 500px at 100% 0%, #5669A1 0%, transparent 50%), var(--fundo);
   color: var(--texto);
   min-height: 100vh;
@@ -535,7 +535,7 @@ code {
 .rede-vazio {
   padding: 16px;
   margin: 0;
-  color: #A6CAFF;
+  color: #6AC0FB;
   font-size: 0.76rem;
 }
 
@@ -548,7 +548,7 @@ code {
   padding: 7px 16px;
   background: transparent;
   border: 0;
-  border-bottom: 1px solid #A6CAFF;
+  border-bottom: 1px solid #6AC0FB;
   color: #E4E0D2;
   font-size: 0.74rem;
   font-family: inherit;
@@ -557,7 +557,7 @@ code {
 }
 
 .rede-linha:hover {
-  background: #A6CAFF;
+  background: #6AC0FB;
 }
 
 .rede-metodo {
@@ -612,7 +612,7 @@ code {
 }
 
 .s-aguardando {
-  color: #A6CAFF;
+  color: #6AC0FB;
 }
 
 .rede-tempo {
@@ -623,7 +623,7 @@ code {
 .rede-detalhe {
   padding: 12px 16px 16px;
   background: #5D5380;
-  border-bottom: 1px solid #A6CAFF;
+  border-bottom: 1px solid #6AC0FB;
   display: grid;
   gap: 12px;
 }
@@ -632,13 +632,13 @@ code {
   font-size: 0.68rem;
   text-transform: uppercase;
   letter-spacing: 0.7px;
-  color: #A6CAFF;
+  color: #6AC0FB;
 }
 
 .rede-detalhe pre {
   margin: 5px 0 0;
   padding: 9px 11px;
-  background: #A6CAFF;
+  background: #6AC0FB;
   border-radius: 8px;
   font-size: 0.72rem;
   color: #FFFBEA;
