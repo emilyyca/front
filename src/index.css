@@ -5,7 +5,7 @@
 :root {
   --fundo: #5D5380;
   --fundo-2: #A6CAFF;
-  --cartao: #559AD4;
+  --cartao: #497F95;
   --borda: #A6CAFF;
   --texto: #F5F3E8;
   --texto-fraco: #E4E0D2;
@@ -25,7 +25,7 @@ body {
   margin: 0;
   font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
   background: radial-gradient(1100px 600px at 12% -10%, #A6CAFF 0%, transparent 55%),
-    radial-gradient(900px 500px at 100% 0%, #559AD4 0%, transparent 50%), var(--fundo);
+    radial-gradient(900px 500px at 100% 0%, #497F95 0%, transparent 50%), var(--fundo);
   color: var(--texto);
   min-height: 100vh;
   padding-bottom: 60px;
