@@ -3,17 +3,17 @@
    ═══════════════════════════════════════════════════════════════ */
 
 :root {
-  --fundo: #25384D;
-  --fundo-2: #395675;
-  --cartao: #4D749E;
-  --borda: #6192C7;
-  --texto: #F2F7FC;
-  --texto-fraco: #C7D9EA;
-  --acento: #73ADEB;
-  --acento-2: #6192C7;
-  --ok: #73ADEB;
-  --atencao: #6192C7;
-  --perigo: #395675;
+  --fundo: #5A7078;
+  --fundo-2: #5C9FB8;
+  --cartao: #A2825F;
+  --borda: #5C9FB8;
+  --texto: #F4F7F8;
+  --texto-fraco: #D9E8ED;
+  --acento: #3DC6F8;
+  --acento-2: #5C9FB8;
+  --ok: #3DC6F8;
+  --atencao: #5C9FB8;
+  --perigo: #5C9FB8;
   --raio: 14px;
 }
 
@@ -24,8 +24,8 @@
 body {
   margin: 0;
   font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
-  background: radial-gradient(1100px 600px at 12% -10%, #395675 0%, transparent 55%),
-    radial-gradient(900px 500px at 100% 0%, #4D749E 0%, transparent 50%), var(--fundo);
+  background: radial-gradient(1100px 600px at 12% -10%, #5C9FB8 0%, transparent 55%),
+    radial-gradient(900px 500px at 100% 0%, #A2825F 0%, transparent 50%), var(--fundo);
   color: var(--texto);
   min-height: 100vh;
   padding-bottom: 60px;
@@ -36,11 +36,11 @@ h2 {
   margin: 0;
 }
 code {
-  background: rgba(115, 173, 235, 0.14);
+  background: rgba(61, 198, 248, 0.14);
   padding: 1px 6px;
   border-radius: 6px;
   font-size: 0.86em;
-  color: #E2EFFB;
+  color: #EAF7FB;
 }
 
 /* ── Marca ─────────────────────────────────────────────── */
@@ -63,7 +63,7 @@ code {
   height: 34px;
   border-radius: 11px;
   background: linear-gradient(135deg, var(--acento), var(--acento-2));
-  box-shadow: 0 0 26px rgba(115, 173, 235, 0.5);
+  box-shadow: 0 0 26px rgba(61, 198, 248, 0.5);
   flex: none;
 }
 
@@ -104,7 +104,7 @@ code {
 }
 .aba.ativa {
   background: linear-gradient(135deg, var(--acento), var(--acento-2));
-  color: #F2F7FC;
+  color: #F4F7F8;
 }
 .rodape-cartao {
   margin: 16px 0 0;
@@ -141,7 +141,7 @@ code {
 }
 .campo-input:focus {
   border-color: var(--acento);
-  box-shadow: 0 0 0 3px rgba(115, 173, 235, 0.18);
+  box-shadow: 0 0 0 3px rgba(61, 198, 248, 0.18);
 }
 .campo-dica {
   display: block;
@@ -176,12 +176,12 @@ code {
 }
 .botao-primario {
   background: linear-gradient(135deg, var(--acento), var(--acento-2));
-  color: #F2F7FC;
+  color: #F4F7F8;
 }
 .botao-perigo {
-  background: rgba(57, 86, 117, 0.15);
-  color: var(--perigo);
-  border: 1px solid rgba(57, 86, 117, 0.4);
+  background: rgba(90, 112, 120, 0.15);
+  color: #5A7078;
+  border: 1px solid rgba(90, 112, 120, 0.4);
 }
 .botao-fantasma {
   width: auto;
@@ -198,8 +198,8 @@ code {
 .girando {
   width: 13px;
   height: 13px;
-  border: 2px solid rgba(242, 247, 252, 0.35);
-  border-top-color: #F2F7FC;
+  border: 2px solid rgba(244, 247, 248, 0.35);
+  border-top-color: #F4F7F8;
   border-radius: 50%;
   animation: girar 0.7s linear infinite;
 }
@@ -224,19 +224,19 @@ code {
   margin: 0;
 }
 .aviso-erro {
-  background: rgba(57, 86, 117, 0.12);
-  border: 1px solid rgba(57, 86, 117, 0.32);
-  color: #E2EFFB;
+  background: rgba(90, 112, 120, 0.12);
+  border: 1px solid rgba(90, 112, 120, 0.32);
+  color: #EAF7FB;
 }
 .aviso-ok {
-  background: rgba(115, 173, 235, 0.12);
-  border: 1px solid rgba(115, 173, 235, 0.32);
-  color: #E2EFFB;
+  background: rgba(61, 198, 248, 0.12);
+  border: 1px solid rgba(61, 198, 248, 0.32);
+  color: #EAF7FB;
 }
 .aviso-info {
-  background: rgba(115, 173, 235, 0.12);
-  border: 1px solid rgba(115, 173, 235, 0.32);
-  color: #E2EFFB;
+  background: rgba(61, 198, 248, 0.12);
+  border: 1px solid rgba(61, 198, 248, 0.32);
+  color: #EAF7FB;
 }
 
 /* ── Painel ────────────────────────────────────────────── */
@@ -294,7 +294,7 @@ code {
   padding: 20px;
 }
 .cartao-perigo {
-  border-color: rgba(57, 86, 117, 0.28);
+  border-color: rgba(90, 112, 120, 0.28);
 }
 .cartao-topo {
   display: flex;
@@ -325,12 +325,12 @@ code {
   border-radius: 6px;
 }
 .selo-put {
-  background: rgba(97, 146, 199, 0.16);
-  color: var(--atencao);
+  background: rgba(162, 130, 95, 0.16);
+  color: #F79E3E;
 }
 .selo-delete {
-  background: rgba(57, 86, 117, 0.16);
-  color: var(--perigo);
+  background: rgba(90, 112, 120, 0.16);
+  color: #5A7078;
 }
 
 /* ── Cards de usuário ──────────────────────────────────── */
@@ -352,7 +352,7 @@ code {
 }
 .card-usuario.eu {
   border-color: var(--acento);
-  box-shadow: 0 0 0 1px rgba(115, 173, 235, 0.35);
+  box-shadow: 0 0 0 1px rgba(61, 198, 248, 0.35);
 }
 @keyframes surgir {
   from {
@@ -386,7 +386,7 @@ code {
 .tag {
   font-size: 0.62rem;
   background: var(--acento);
-  color: #F2F7FC;
+  color: #F4F7F8;
   padding: 1px 6px;
   border-radius: 20px;
   vertical-align: middle;
@@ -399,7 +399,7 @@ code {
   place-items: center;
   font-weight: 800;
   font-size: 0.82rem;
-  color: #F2F7FC;
+  color: #F4F7F8;
   flex: none;
 }
 .esqueleto {
@@ -430,7 +430,7 @@ code {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #25384D;
+  background: #5A7078;
   border-top: 1px solid var(--borda);
   font-family: "Cascadia Code", Consolas, monospace;
   z-index: 50;
@@ -474,7 +474,7 @@ code {
 .rede-vazio {
   padding: 16px;
   margin: 0;
-  color: #6192C7;
+  color: #5C9FB8;
   font-size: 0.76rem;
 }
 .rede-linha {
@@ -486,15 +486,15 @@ code {
   padding: 7px 16px;
   background: transparent;
   border: 0;
-  border-bottom: 1px solid #395675;
-  color: #C7D9EA;
+  border-bottom: 1px solid #5C9FB8;
+  color: #D9E8ED;
   font-size: 0.74rem;
   font-family: inherit;
   cursor: pointer;
   text-align: left;
 }
 .rede-linha:hover {
-  background: #395675;
+  background: #5C9FB8;
 }
 .rede-metodo {
   font-weight: 800;
@@ -504,20 +504,20 @@ code {
   border-radius: 5px;
 }
 .m-GET {
-  background: rgba(115, 173, 235, 0.15);
-  color: var(--ok);
+  background: rgba(61, 198, 248, 0.15);
+  color: #3DC6F8;
 }
 .m-POST {
-  background: rgba(115, 173, 235, 0.18);
-  color: #E2EFFB;
+  background: rgba(61, 198, 248, 0.18);
+  color: #EAF7FB;
 }
 .m-PUT {
-  background: rgba(97, 146, 199, 0.15);
-  color: var(--atencao);
+  background: rgba(162, 130, 95, 0.15);
+  color: #F79E3E;
 }
 .m-DELETE {
-  background: rgba(57, 86, 117, 0.15);
-  color: var(--perigo);
+  background: rgba(90, 112, 120, 0.15);
+  color: #5A7078;
 }
 .rede-url {
   overflow: hidden;
@@ -529,16 +529,16 @@ code {
   text-align: center;
 }
 .s-ok {
-  color: var(--ok);
+  color: #3DC6F8;
 }
 .s-atencao {
-  color: var(--atencao);
+  color: #F79E3E;
 }
 .s-erro {
-  color: var(--perigo);
+  color: #5A7078;
 }
 .s-aguardando {
-  color: #6192C7;
+  color: #5C9FB8;
 }
 .rede-tempo {
   text-align: right;
@@ -546,8 +546,8 @@ code {
 }
 .rede-detalhe {
   padding: 12px 16px 16px;
-  background: #25384D;
-  border-bottom: 1px solid #395675;
+  background: #5A7078;
+  border-bottom: 1px solid #5C9FB8;
   display: grid;
   gap: 12px;
 }
@@ -555,15 +555,15 @@ code {
   font-size: 0.68rem;
   text-transform: uppercase;
   letter-spacing: 0.7px;
-  color: #6192C7;
+  color: #5C9FB8;
 }
 .rede-detalhe pre {
   margin: 5px 0 0;
   padding: 9px 11px;
-  background: #395675;
+  background: #5C9FB8;
   border-radius: 8px;
   font-size: 0.72rem;
-  color: #E2EFFB;
+  color: #EAF7FB;
   white-space: pre-wrap;
   word-break: break-all;
   max-height: 190px;
