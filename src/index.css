@@ -3,17 +3,17 @@
    ═══════════════════════════════════════════════════════════════ */
 
 :root {
-  --fundo: #5A7078;
-  --fundo-2: #5C9FB8;
-  --cartao: #A2825F;
-  --borda: #5C9FB8;
-  --texto: #F4F7F8;
-  --texto-fraco: #D9E8ED;
-  --acento: #3DC6F8;
-  --acento-2: #5C9FB8;
-  --ok: #3DC6F8;
-  --atencao: #5C9FB8;
-  --perigo: #5C9FB8;
+  --fundo: #5D5380;
+  --fundo-2: #A6CAFF;
+  --cartao: #CCC8BA;
+  --borda: #A6CAFF;
+  --texto: #F5F3E8;
+  --texto-fraco: #E4E0D2;
+  --acento: #FFECA6;
+  --acento-2: #A6CAFF;
+  --ok: #FFECA6;
+  --atencao: #A6CAFF;
+  --perigo: #A6CAFF;
   --raio: 14px;
 }
 
@@ -24,8 +24,8 @@
 body {
   margin: 0;
   font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
-  background: radial-gradient(1100px 600px at 12% -10%, #5C9FB8 0%, transparent 55%),
-    radial-gradient(900px 500px at 100% 0%, #A2825F 0%, transparent 50%), var(--fundo);
+  background: radial-gradient(1100px 600px at 12% -10%, #A6CAFF 0%, transparent 55%),
+    radial-gradient(900px 500px at 100% 0%, #CCC8BA 0%, transparent 50%), var(--fundo);
   color: var(--texto);
   min-height: 100vh;
   padding-bottom: 60px;
@@ -40,7 +40,7 @@ code {
   padding: 1px 6px;
   border-radius: 6px;
   font-size: 0.86em;
-  color: #EAF7FB;
+  color: #FFFBEA;
 }
 
 /* ── Marca ─────────────────────────────────────────────── */
@@ -104,7 +104,7 @@ code {
 }
 .aba.ativa {
   background: linear-gradient(135deg, var(--acento), var(--acento-2));
-  color: #F4F7F8;
+  color: #F5F3E8;
 }
 .rodape-cartao {
   margin: 16px 0 0;
@@ -176,11 +176,11 @@ code {
 }
 .botao-primario {
   background: linear-gradient(135deg, var(--acento), var(--acento-2));
-  color: #F4F7F8;
+  color: #F5F3E8;
 }
 .botao-perigo {
   background: rgba(90, 112, 120, 0.15);
-  color: #5A7078;
+  color: #5D5380;
   border: 1px solid rgba(90, 112, 120, 0.4);
 }
 .botao-fantasma {
@@ -199,7 +199,7 @@ code {
   width: 13px;
   height: 13px;
   border: 2px solid rgba(244, 247, 248, 0.35);
-  border-top-color: #F4F7F8;
+  border-top-color: #F5F3E8;
   border-radius: 50%;
   animation: girar 0.7s linear infinite;
 }
@@ -226,17 +226,17 @@ code {
 .aviso-erro {
   background: rgba(90, 112, 120, 0.12);
   border: 1px solid rgba(90, 112, 120, 0.32);
-  color: #EAF7FB;
+  color: #FFFBEA;
 }
 .aviso-ok {
   background: rgba(61, 198, 248, 0.12);
   border: 1px solid rgba(61, 198, 248, 0.32);
-  color: #EAF7FB;
+  color: #FFFBEA;
 }
 .aviso-info {
   background: rgba(61, 198, 248, 0.12);
   border: 1px solid rgba(61, 198, 248, 0.32);
-  color: #EAF7FB;
+  color: #FFFBEA;
 }
 
 /* ── Painel ────────────────────────────────────────────── */
@@ -326,11 +326,11 @@ code {
 }
 .selo-put {
   background: rgba(162, 130, 95, 0.16);
-  color: #F79E3E;
+  color: #BAA6FF;
 }
 .selo-delete {
   background: rgba(90, 112, 120, 0.16);
-  color: #5A7078;
+  color: #5D5380;
 }
 
 /* ── Cards de usuário ──────────────────────────────────── */
@@ -386,7 +386,7 @@ code {
 .tag {
   font-size: 0.62rem;
   background: var(--acento);
-  color: #F4F7F8;
+  color: #F5F3E8;
   padding: 1px 6px;
   border-radius: 20px;
   vertical-align: middle;
@@ -399,7 +399,7 @@ code {
   place-items: center;
   font-weight: 800;
   font-size: 0.82rem;
-  color: #F4F7F8;
+  color: #F5F3E8;
   flex: none;
 }
 .esqueleto {
@@ -430,7 +430,7 @@ code {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #5A7078;
+  background: #5D5380;
   border-top: 1px solid var(--borda);
   font-family: "Cascadia Code", Consolas, monospace;
   z-index: 50;
@@ -474,7 +474,7 @@ code {
 .rede-vazio {
   padding: 16px;
   margin: 0;
-  color: #5C9FB8;
+  color: #A6CAFF;
   font-size: 0.76rem;
 }
 .rede-linha {
@@ -486,15 +486,15 @@ code {
   padding: 7px 16px;
   background: transparent;
   border: 0;
-  border-bottom: 1px solid #5C9FB8;
-  color: #D9E8ED;
+  border-bottom: 1px solid #A6CAFF;
+  color: #E4E0D2;
   font-size: 0.74rem;
   font-family: inherit;
   cursor: pointer;
   text-align: left;
 }
 .rede-linha:hover {
-  background: #5C9FB8;
+  background: #A6CAFF;
 }
 .rede-metodo {
   font-weight: 800;
@@ -505,19 +505,19 @@ code {
 }
 .m-GET {
   background: rgba(61, 198, 248, 0.15);
-  color: #3DC6F8;
+  color: #FFECA6;
 }
 .m-POST {
   background: rgba(61, 198, 248, 0.18);
-  color: #EAF7FB;
+  color: #FFFBEA;
 }
 .m-PUT {
   background: rgba(162, 130, 95, 0.15);
-  color: #F79E3E;
+  color: #BAA6FF;
 }
 .m-DELETE {
   background: rgba(90, 112, 120, 0.15);
-  color: #5A7078;
+  color: #5D5380;
 }
 .rede-url {
   overflow: hidden;
@@ -529,16 +529,16 @@ code {
   text-align: center;
 }
 .s-ok {
-  color: #3DC6F8;
+  color: #FFECA6;
 }
 .s-atencao {
-  color: #F79E3E;
+  color: #BAA6FF;
 }
 .s-erro {
-  color: #5A7078;
+  color: #5D5380;
 }
 .s-aguardando {
-  color: #5C9FB8;
+  color: #A6CAFF;
 }
 .rede-tempo {
   text-align: right;
@@ -546,8 +546,8 @@ code {
 }
 .rede-detalhe {
   padding: 12px 16px 16px;
-  background: #5A7078;
-  border-bottom: 1px solid #5C9FB8;
+  background: #5D5380;
+  border-bottom: 1px solid #A6CAFF;
   display: grid;
   gap: 12px;
 }
@@ -555,15 +555,15 @@ code {
   font-size: 0.68rem;
   text-transform: uppercase;
   letter-spacing: 0.7px;
-  color: #5C9FB8;
+  color: #A6CAFF;
 }
 .rede-detalhe pre {
   margin: 5px 0 0;
   padding: 9px 11px;
-  background: #5C9FB8;
+  background: #A6CAFF;
   border-radius: 8px;
   font-size: 0.72rem;
-  color: #EAF7FB;
+  color: #FFFBEA;
   white-space: pre-wrap;
   word-break: break-all;
   max-height: 190px;
